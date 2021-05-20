@@ -1,0 +1,226 @@
+body {
+    background-image: linear-gradient(to bottom, #f0f4f5, #daf4f3);
+}
+.taskbar {
+    display: flex;
+    background-color:orange;
+    position: fixed;
+    width:100vw;
+    border:solid;
+    border-color: rgb(141, 102, 30);
+
+
+}
+.taskbar button {
+    width: 1vw;
+    height: 4vh;
+}
+h1 {
+    margin-left:2vh;
+    margin-top: 5vh;
+
+}
+
+.taskbar input {
+    margin-left: 6vw;
+    height: 5vh;
+    margin-top: 6vh;
+    width: 33vw;
+    border: solid;
+    border-radius: 12px;
+}
+.virus {
+    margin-left: 5vw;
+    width: 6vw;
+    margin-top:2.3vh;
+    height: 12vh;
+    animation: corona 2s   infinite;
+}
+
+.taskbar button {
+    width: 8vh;
+    height: 6vh;
+    border: solid;
+    border-radius:10px;
+    margin-top: 6vh;
+    margin-left: 2vh;
+}
+.taskbar button img {
+    height: 4vh;
+    width: 2vw;
+    margin:2px;
+}
+.stories {
+  margin-top: 20vh;
+  margin-left:8vh;
+  
+}
+
+.home {
+    margin-left: 45vh;
+    margin-right: 3vh;
+    width: 3vw;
+    height: 10vh;
+    margin-top: 6vh;
+}
+.home:hover {
+    background-color: rgb(8, 255, 16);
+    border-radius: 50%;
+    
+}
+
+.icon {
+    margin-right: 0;
+    width: 3vw;
+    height: 9vh;
+    margin-top: 6vh;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: rgb(8, 255, 16);
+}
+.b {
+    border: solid;
+    border-color: blueviolet;
+    border-radius: 50%;
+    width: 4vw;
+    margin-right: 1vw;
+    height: 11vh;
+}
+
+.b:hover {
+    border-color: chartreuse;
+}
+.container {
+    display: flex;
+    margin:3vh auto;
+    width: 60vw;
+    flex-direction: column;
+}
+.container img {
+    width:15vw;
+    height:38vh;
+    border-radius: 50%;
+}
+.img1 {
+    border:solid;
+    float:left;
+    border-color: orange;
+    margin-right: 4vh;
+}
+.billu {
+    color: orange;
+}
+.img2 {
+    float:right;
+    border:solid;
+    border-color: orange;
+}
+.img3{
+    float:left;
+    border:solid;
+    border-color: orange;
+}
+
+.active {
+    position: absolute;
+    left: 15vh;
+}
+.t1 {
+    margin: 0;
+    list-style: none;
+}
+h4 {
+    margin: 2vh;
+}
+.ww1 {
+    background-color: chartreuse;
+    height: 25vh;
+    width: 25vw;
+    margin: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-color: yellowgreen;
+    border-width: 1.1vh;
+}
+.ww2{
+    background-color: chartreuse;
+    height: 25vh;
+    width: 25vw;
+    margin: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-color:yellowgreen;
+    border-width:1.1vh;
+}
+.ww3 {
+    background-color: chartreuse;
+    height: 25vh;
+    width: 25vw;
+    margin: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-color:yellowgreen;
+    border-width:1.1vh;
+}
+.ww1 h4 {
+    font-size: 4vh;
+}
+.ww2 h4 {
+    margin-top:0;
+    font-size: 4vh;
+}
+.ww3 h4 {
+    margin-top: 0;
+    font-size: 4vh;
+}
+.below {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.button {
+    width: 18vw;
+    height: 10vh;
+    border: solid;
+    border-radius: 30%;
+}
+.button3{
+    margin: 3vh;
+    border: solid;
+    border-radius: 2vh;
+    border-color: white;
+}
+@keyframes corona {
+    from {
+        transform: rotate(0deg);
+       
+    }
+    to {
+        transform: rotate(360deg);
+        
+    }
+}
