@@ -1,5 +1,8 @@
+
 body {
     background-image: linear-gradient(to bottom, #f0f4f5, #daf4f3);
+    font-weight: bold;
+    font-family: 'Mate SC', serif;
 }
 .taskbar {
     display: flex;
@@ -8,7 +11,6 @@ body {
     width:100vw;
     border:solid;
     border-color: rgb(141, 102, 30);
-
 
 }
 .taskbar button {
@@ -51,13 +53,25 @@ h1 {
     margin:2px;
 }
 .stories {
-  margin-top: 20vh;
-  margin-left:8vh;
-  
+  margin-top: 25vh;
+  padding-left: 10vh;
+}
+.twitter {
+    margin-left:35vh;
+    width: 4vw;
+    height: 11vh;
+    margin-top: 6vh;
+    margin-right: 3vh;
+    
+
+}
+.twitter:hover{
+    background-color: rgb(8, 255, 16);
+    border-radius: 50%;
+    
 }
 
 .home {
-    margin-left: 45vh;
     margin-right: 3vh;
     width: 3vw;
     height: 10vh;
@@ -74,11 +88,13 @@ h1 {
     width: 3vw;
     height: 9vh;
     margin-top: 6vh;
+    border: solid;
     border-radius: 50%;
+    border-color: transparent;
 }
 
 .icon:hover {
-    background-color: rgb(8, 255, 16);
+    border-color: rgb(8, 255, 16);
 }
 .b {
     border: solid;
@@ -116,11 +132,13 @@ h1 {
     float:right;
     border:solid;
     border-color: orange;
+    margin-right: 4vh;
 }
 .img3{
     float:left;
     border:solid;
     border-color: orange;
+    margin-right: 4vh;
 }
 
 .active {
@@ -128,15 +146,20 @@ h1 {
     left: 15vh;
 }
 .t1 {
-    margin: 0;
+    margin: 1vh;
     list-style: none;
 }
-h4 {
-    margin: 2vh;
+.t2 {
+    margin:1vh;
+    list-style: none;
+}
+.t3 {
+    margin:3vh;
+    list-style: none;
 }
 .ww1 {
-    background-color: chartreuse;
-    height: 25vh;
+    background-color:rgb(14, 225, 14);
+    height: 28vh;
     width: 25vw;
     margin: 25px;
     position: relative;
@@ -148,12 +171,12 @@ h4 {
     border-bottom-left-radius: 2vh;
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
-    border-color: yellowgreen;
+    border-color: green;
     border-width: 1.1vh;
 }
 .ww2{
-    background-color: chartreuse;
-    height: 25vh;
+    background-color:rgb(14, 225, 14);
+    height: 28vh;
     width: 25vw;
     margin: 25px;
     position: relative;
@@ -165,12 +188,12 @@ h4 {
     border-bottom-left-radius: 2vh;
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
-    border-color:yellowgreen;
+    border-color:green;
     border-width:1.1vh;
 }
 .ww3 {
-    background-color: chartreuse;
-    height: 25vh;
+    background-color: rgb(14, 225, 14);
+    height: 28vh;
     width: 25vw;
     margin: 25px;
     position: relative;
@@ -182,18 +205,19 @@ h4 {
     border-bottom-left-radius: 2vh;
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
-    border-color:yellowgreen;
+    border-color:green;
     border-width:1.1vh;
 }
 .ww1 h4 {
     font-size: 4vh;
+    margin:0;
 }
 .ww2 h4 {
-    margin-top:0;
+    margin:0;
     font-size: 4vh;
 }
 .ww3 h4 {
-    margin-top: 0;
+    margin: 0;
     font-size: 4vh;
 }
 .below {
@@ -201,6 +225,8 @@ h4 {
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    background-color: orange;
+
 }
 .button {
     width: 18vw;
@@ -209,10 +235,23 @@ h4 {
     border-radius: 30%;
 }
 .button3{
-    margin: 3vh;
+    margin-top: 1vh;
     border: solid;
     border-radius: 2vh;
     border-color: white;
+}
+.dot {
+    border-top: 8px dotted red;
+}
+.niche {
+    color: rgb(17, 24, 228);
+    border: solid;
+}
+.allu {
+    margin-left: 4vh;
+    width: 95vw;
+    height: 15vh;
+    background-color: green;
 }
 @keyframes corona {
     from {
